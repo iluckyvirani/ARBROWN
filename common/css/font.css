@@ -1,0 +1,346 @@
+
+/***************************************************************/
+/* Heading　見出し
+/***************************************************************/
+h1.heading1 {
+	font-size: 1.2em;
+	height: 40px;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 50px;
+	background: url(../../../images/page_contents_title_bg.jpg) no-repeat left top;
+}
+h1.heading1w {
+	font-size: 1.2em;
+	height: 40px;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 50px;
+	background: url(../../../images/h1w_bg.jpg) no-repeat left top;
+}
+h1.page2 {
+	font-size: 1.2em;
+	height: 40px;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 50px;
+	background: url(../../../images/p2_h1_bg.jpg) no-repeat left top;
+}
+h1.mt {
+	font-size: 1.4em;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 5px;
+	border-bottom:  1px solid #ccc;
+	font-weight: 400;
+}
+h2.ptit {
+	font-size: 2em;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 15px;
+	height: 40px;
+	font-weight: 100;
+	color: #666;
+	font-family: Meiryo, "メイリオ", Osaka, "sans-serif", Arial, Helvetica;
+	background: url(../images/title_bg.jpg) no-repeat left bottom;
+	letter-spacing: 0.4em;
+}
+h2.mt {
+	font-size: 1.1em;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 5px;
+	font-weight: 700;
+	color: #8C0000;
+}
+.htitle {
+	font-size: 1.7em;
+	color: #666;
+	height: 33px;
+	margin: 0px 0px 0.75em 0px;
+	padding: 7px 0px 0px 15px;
+	font-weight: 200;
+	letter-spacing: 5px;
+	border-bottom: 3px solid #ccc;
+	position: relative;
+}
+.htitle:after { 
+	content: "."; 
+	line-height: 0; 
+	display: block; 
+	overflow: hidden; 
+	position: absolute; 
+	bottom: -3px;
+	left: 0;
+	width: 230px; 
+	border-bottom: 3px solid #AF7448; }
+
+h2.heading2 {
+	font-size: 1.1em;
+	height: 35px;
+	margin: 0px 0px 0.75em 0px;
+	padding: 10px 0px 0px 20px;
+	background: url(../../../images/page_contents_title_bg2.jpg) no-repeat left top;
+}
+h2.heading2n {
+	font-size: 1.1em;
+	background:#fff;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:10px groove #9A613E;
+	border-bottom:1px solid #ccc;
+	padding: 8px 0px 4px 20px;
+	margin: 0px 0px 0.75em 0px;
+
+}
+h2.product {
+	font-size: 1.1em;
+	margin: 0px 0px 0.75em 0px;
+	padding: 0px 0px 0px 30px;
+	background: url(../../../products/images/page_contents_title_bg3.jpg) no-repeat left top;
+}
+h2.sitemap {
+	font-size: 1em;
+	margin: 10px 0px 0px 10px;
+	padding: 15px 0px 0px 40px;
+	height: 28px;
+	background: url(../../../images/h2_sitemap.jpg) no-repeat left top;
+}
+h2.sitemapn {
+	font-size: 1em;
+	margin: 10px 0px 0px 10px;
+	padding: 15px 0px 0px 40px;
+	height: 37px;
+	background: url(../../../images/h2_sitemapn.jpg) no-repeat left top;
+}
+h3.heading3 {
+	font-size: 1em;
+	height: 20px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 25px;
+	background: url(../../../images/page_contents_title_bg3.jpg) no-repeat left top;
+}
+h3.downloard {
+	font-size: 1.2em;
+	color:#FFFFFF;
+	height: 45px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px 0px 25px;
+	background: url(../../../images/downloard_bg3.jpg) no-repeat left top;
+}
+h3.downloard2 {
+	font-size: 1.2em;
+	color:#FFFFFF;
+	height: 45px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px 0px 25px;
+	background: url(../../../images/downloard_bg32.jpg) no-repeat left top;
+}
+h3.phi {
+	font-size: 1rem;
+	color:#99613E;
+}
+h4.heading4 {
+	font-size: 1em;
+	margin: 0px 0px 0.75em 0px;
+	padding: 0px;
+}
+i.icon_pdfs{
+	margin: 0 0 0 0.5em;
+	background: url(https://www.arbrown.com/images/pdf.svg) no-repeat left center;
+	width: 30px;
+	height: 30px;
+}
+/***************************************************************/
+/* Item　表の見出し
+/***************************************************************/
+.tblItem1 {
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+.tblItem2 {
+	font-size: 1em;
+	background-color: #F9F9F9;
+}
+.tblItem3 {
+	font-size: 1em;
+	padding: 5px 0 5px 5px;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+.tblItem4 {
+	font-size: 1em;
+	padding: 5px 0 5px 5px;
+	font-weight: bold;
+	background-color: #99C9AC;
+}
+.tblItem5 {
+	font-size: 1em;
+	padding: 5px 0 5px 5px;
+	font-weight: bold;
+	background-color: #DBEEF3;
+}
+.tblItemS {
+	font-size: 0.8em;
+	background-color: #FFFFFF;
+}
+.tblItemSL {
+	font-size: 0.8em;
+	border-left: 2px solid #696969;
+	background-color: #FFFFFF;
+}
+.tblItemAg1 {
+	font-size: 0.8em;
+	background-color: #BFE6DA;
+}
+.tblItemAg2 {
+	font-size: 0.8em;
+	background-color: #DAEEDC;
+}
+.tblItemBLine {
+	font-size: 1em;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #666666;
+}
+
+/***************************************************************/
+/* Text　本文
+/***************************************************************/
+.textCenter {
+	text-align: center;
+}
+.textSmall {
+	font-size: 0.85em;
+}
+.textSmall2 {
+	font-size: 0.9em;
+	color: #333333;
+}
+.tblItemS {
+	font-size: 0.8em;
+	background-color: #FFFFFF;
+}
+.textRed {
+	color: #C91E0C;
+}
+.textRedb {
+	color: #C91E0C;
+	font-weight:bold;
+	font-size: 1.5em;
+}
+.textBlb {
+	color: #3E809F;
+	font-weight:bold;
+	font-size: 1.1em;
+}
+.textBl {
+	color: #0066FF;
+}
+.textMarker {
+	background-color:#E6E6E6;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+}  
+.textbig {
+    color: #333333;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: left;
+}
+.textmid {
+    color: #666666;
+	font-size: 1.2em;
+	text-align: left;
+	font:"メイリオ";
+}
+.textmidp {
+    color: #666666;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 10px 5px 0px 5px; 
+	font:"メイリオ";
+}
+.textsml {
+    color: #666666;
+	font-size: 0.8em;
+	text-align: left;
+	font:"メイリオ";
+}
+.textmidc {
+    color: #666666;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight:bold;
+	font:"メイリオ";
+}
+.textmidsig {
+    color: #202A22;
+	font-size: 1.3em;
+	font: "ＭＳ Ｐ明朝";
+}
+.textpr {
+    color: #666666;
+	font-size: 1.1em;
+	text-align: left;
+	font:"メイリオ";
+}
+.textmidw {
+    color: #FFFFFF;
+	font-size: 1.5em;
+	text-align: left;
+	font:"メイリオ";
+}
+.textbig2 {
+    color: #333333;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+.text150 {
+    color: #333333;
+	font-size: 150%;
+}
+.textrec {
+    color: #666666;
+	padding: 0 0 0 10px;
+	text-align: left;
+	font:"メイリオ";
+}
+.textmidsigv{
+    color: #202A22;
+	font-size: 1.3em;
+}
+.textmidsigv img{
+    vertical-align: middle;
+}
+
+/***************************************************************/
+/* Icon　アイコン
+/***************************************************************/
+.icon_pdf {
+	padding-left: 45px;
+	padding-right: 10px;
+	float:inherit;
+	height: 36px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}
+.icon_excel {
+	padding-left: 20px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}
+.icon_link {
+	padding-left: 20px;
+	background: url(../../../images/icon_link.jpg) no-repeat left center;
+}
+.iconFolder {
+	padding-left: 30px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}
+.icon_page {
+	padding-left: 20px;
+	padding-right: 10px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}
+.icon_dl {
+	padding-left: 170px;
+	padding-top: 13px;
+	float:inherit;
+	height: 36px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}

@@ -1,0 +1,1541 @@
+/***************************************************************/
+/* PAGE LAYOUT
+/***************************************************************/
+.layoutLeft {
+	float: left;
+}
+.layoutLeft235 {
+	float: left;
+	width: 230px;
+}
+.layoutLeftprin {
+	float: left;
+	width: 350px;
+	height:159px;
+	padding: 25px 0 0 30px;
+	background:url(http://www.arbrown.com/err/notfound.html) no-repeat;
+}
+.layoutRightprin {
+	float: right;
+	width: 350px;
+	height:159px;
+	padding: 25px 0 0 30px;
+	background:url(http://www.arbrown.com/err/notfound.html) no-repeat;
+}
+.layoutLeftpic {
+	float: left;
+	font-size: 14px;
+}
+.layoutLeft50 {
+	float: left;
+	margin: 0 20px 10px 0;
+	width:450px;
+	height: 111px;
+	background:url(http://www.arbrown.com/err/notfound.html) no-repeat;
+}
+.layoutLeft501 {
+	float: left;
+	margin: 4px 10px 4px 0;
+	padding-top: 10px;
+	
+}
+.layoutL400 {
+	float: left;
+	width: 400px;
+	margin-bottom: 15px;
+}
+.layoutL700 {
+	float: left;
+	width: 700px;
+	margin-bottom: 15px;
+}
+.layoutLeftenv {
+	float: right;
+	width: 240px;
+}
+.layoutRight {
+	float: right;
+}
+.layout2col {
+	width: 330px;
+	margin: 0 0 20px 0;
+}
+.layout2colLeft {
+	float: left;
+	width: 320px;
+}
+.layout2colRight {
+	float: right;
+	width: 320px;
+}
+.layout2coldl {
+	width: 450px;
+	margin: 0 0 20px 0;
+}
+.layout2colLeftdl {
+	float: left;
+	width: 450px;
+}
+.layout2colRightdl {
+	float: right;
+	width: 450px;
+}
+.layout2colLeftdl {
+	float: left;
+	width: 330px;
+}
+.layout2colRightdl {
+	float: right;
+	width: 330px;
+}
+.layout2colLeftpr {
+	float: left;
+	margin: 0 0 20px 0;
+	width: 330px;
+}
+.layout2colRightpr {
+	float: right;
+	margin: 0 0 20px 0;
+	width: 330px;
+}
+.layout2colLeftsp {
+	float: left;
+	border: 1px #265CA7 solid ;
+	margin: 0 0 15px 0;
+	width: 330px;
+}
+.layout2colRightsp {
+	float: right;
+	border: 1px #265CA7 solid ;
+	margin: 0 0 15px 0;
+	width: 330px;
+}
+.layout2colLeftcon {
+	float: left;
+	width: 260px;
+	padding:32px 0 0 10px;
+}
+.layout2colRightcon {
+	float: right;
+	width: 400px;
+	padding:20px 0 0 10px;
+}
+.clear {
+	margin: 0px 0px 1em 0px;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.clear { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .clear { height :1px; }
+.clear { display: block; }
+/* */
+/* /float clear */
+
+
+/***************************************************************/
+/* PAGE NAVIGATION
+/***************************************************************/
+.pageNavi ul {
+}
+.pageNavi li {
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+	margin: 0px 2em 0px 0px;
+	padding: 0px 0px 0px 2em;;
+	float: left;
+}
+
+
+/***************************************************************/
+/* IMAGE
+/***************************************************************/
+.imgLeft {
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+.imgLeft50 {
+	float: left;
+	margin: 4px 10px 0px 4px;
+}
+.imgRight {
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+.imgSpace {
+	margin: 0px 0px 10px 0px;
+}
+div.imgLeftTextMiddle p {/*上下中央揃え*/
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+/*for IE6 */
+* html div.imgLeftTextMiddle p {  
+    display: inline;  
+    zoom: 1;  
+}
+/*for IE7 */
+*:first-child+html div.imgLeftTextMiddle p {  
+    display: inline;  
+    zoom: 1;  
+}
+
+.photoagri {
+	width: 196px;
+	margin: 0 0 0 20px;
+	float: left;
+	background:url(../../../images/pagri_bg.jpg) right top no-repeat;
+}
+.photoagri p {
+	font-size: 84%;
+	padding-right: 20px;
+}
+.photoagriR {
+	width: 196px;
+	margin: 0 0 0 20px;
+	float: left;
+}
+.photoagriR p {
+	font-size: 84%;
+	padding-right: 20px;
+}
+/***************************************************************/
+/* SECTION
+/***************************************************************/
+.section {
+	margin: 0px 0px 25px 0px;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.section:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.section { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .section { height :1px; }
+.section { display: block; }
+/* */
+/* /float clear */
+.section2 {
+	margin: 0px 0px 25px 0px;
+	background-color:#F2F2F2;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.section2:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.section2 { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .section2 { height :1px; }
+.section2 { display: block; }
+/* */
+/* /float clear */
+.sectionenv {
+	margin: 0px 0px 25px 0px;
+	height: 967px;
+	padding: 20px;
+	background: url(../../../images/env_bg.jpg) no-repeat;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.sectionenv:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.sectionenv { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .sectionenv { height :1px; }
+.sectionenv { display: block; }
+/* */
+/* /float clear */
+.sectionBorder {
+	margin: 0px 0px 25px 0px;
+	padding: 0px 0px 0.5em 0px;
+	background: url(http://www.arbrown.com/err/notfound.html) repeat-x left bottom;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.sectionBorder:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.sectionBorder { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .sectionBorder { height :1px; }
+.sectionBorder { display: block; }
+/* */
+/* /float clear */
+
+
+.sectionBox {
+	/*border: 1px solid #696969;*/
+	background-color: #F0F0F0;
+	padding: 10px;
+	margin: 0px 0px 25px 0px;
+	min-height: 1px;　/* IE 7対策 */
+}
+/* float clear */
+.sectionBox:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.sectionBox { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .sectionBox { height :1px; }
+.sectionBox { display: block; }
+/* */
+/* /float clear */
+
+
+
+
+/***************************************************************/
+/* LIST
+/***************************************************************/
+ol.listNumber {
+	margin: 10px;
+	padding: 0px 0px 0px 2em;
+}
+ol.listNumber li {
+	margin:  0px 0px 0.5em 0px;
+	padding: 0px;
+	list-style-type: decimal;
+}
+ol.listNumberb {
+	margin: 10px;
+	padding: 0px 0px 0px 2em;
+}
+ol.listNumberb li {
+	margin:  0px 0px 0.5em 0px;
+	padding: 0px;
+	list-style-type: decimal;
+	font-weight: 700;
+}
+ol.listMnumber {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+ol.listMnumber li {
+	margin:  0;
+	padding-left: 1.25em;
+	list-style-type: none;
+	list-style-position: outside;
+}
+ol.listMnumber li span {
+	position: absolute;
+	left:0;
+	margin:0
+}
+/*IE6*/
+*html ol.listMnumber li span  {
+left: -1.25em;
+}
+ol.listNumber2 {
+	margin: 60px 0 0 60px;
+	padding: 0px 60px 0px 2em;
+}
+ol.listNumber2 li {
+	margin:  0px 0px 0.5em 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	font-weight:bold;
+	list-style-type: decimal;
+}
+ol.listGnumber {
+	margin: 10px;
+	padding: 0px 0px 0px 2em;
+}
+ol.listGnumber li {
+	margin:  0px 0px 0.5em 0px;
+	padding: 0px;
+	list-style-type: upper-roman;
+}
+ol.listAlphabet {
+	margin: 10px;
+	padding: 0px 0px 0px 2em;
+}
+ol.listAlphabet li {
+	margin:  0px 0px 0.5em 0px;
+	padding: 0px;
+	list-style-type: upper-latin;
+}
+ul.listSquare {
+	margin: 10px;
+	padding: 0px;
+}
+ul.listSquare li {
+	margin: 0px;
+	padding: 0px 0px 0.5em 2em;
+	background: url(../../../images/icon_square.jpg) no-repeat left top;
+}
+ul.listmc {
+	margin: 5px;
+	padding: 0px;
+}
+ul.listmc li {
+	float:right;
+	width: 110px;
+	margin: 0 5px 0 0;
+}
+ul.listDownpdf {
+	margin: 10px;
+	padding: 0px;
+}
+ul.listDownpdf li {
+	margin: 0px;
+	height: 36px;
+	padding: 13px 0px 5px 170px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left top;
+}
+ul.listdown {
+	margin: 10px;
+	padding: 0px;
+}
+ul.listdown li {
+	margin: 0px;
+	padding: 0px 0px 1em 2em;
+	background: url(../../../images/icon_down.jpg) no-repeat left top;
+}
+ul.listArrow {
+	margin: 10px;
+	padding: 0px;
+}
+ul.listArrow li {
+	margin: 0px;
+	padding: 0px 0px 0px 2em;
+	background: url(../../../images/icon_arrow.jpg) no-repeat left top;
+}
+ul.listfeature {
+	margin: 10px;
+	padding: 0px;
+}
+ul.listfeature li {
+	margin: 0px;
+	color: #0D94DD;
+	padding: 0px 0px 0.5em 2em;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left top;
+}
+ul.listblnk {
+	margin: 0 0 7px 0;
+	padding: 0px;
+}
+ul.listblnk li {
+	margin: 0px;
+	padding: 0px 0px 0px 2em;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left top;
+}
+
+/*これは、こういう意味ですリスト*/
+dl.listDefinition {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+dl.listDefinition dt {
+	font-weight:bold;
+	background: url(../../../images/q_bg.jpg) no-repeat  left top;
+	padding: 15px 0 0 5px;
+	border-left:7px solid #999999;
+	margin: 5px 0px 0px 10px;
+}
+dl.listDefinition dt:after {
+	content: "：";
+}
+dl.listDefinition dd {
+    background: url(../../../images/a_bg.jpg) no-repeat left top;
+	font-size: 100%;
+	margin: 0px 0px 20px 10px;
+	border-left:7px solid #CCCCCC;
+	padding: 15px 0 0 5px;
+}
+
+.listDefinition2 dt {
+	float: left;
+	clear: both;
+	width: 130px;
+	margin: 0 10px 2em 0;
+	font-weight: bold;
+}
+.listDefinition2 dl > dd {
+	float:left;
+	width: 460px;
+	margin: 0 0 2em 0;
+}
+*+html .listDefinition2 dl > dd {
+	float:none;
+}
+.clear { clear:both; }  
+.clear hr { display:none; } 
+/***************************************************************/
+/* TABLE
+/***************************************************************/
+.table { 
+    border-collapse: collapse;
+    border: 1px #696969 solid;
+	margin: 0px 0px 1em 0px;
+	padding: 2px;
+}
+.table td { 
+    border: 1px #696969 solid;
+	margin: 0px;
+	padding: 2px;
+}
+.table td.check { 
+　　font-size: 150%;
+	color: rgba(10,155,44,1.00);
+	font-weight: bold;
+}
+.table td.closs { 
+　　font-size: 150%;
+	color:#f00;
+	font-weight: bold;
+}
+.tableList {
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+	margin: 0px 0px 1em 0px;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.tableList td { 
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+	padding: 5px;
+	vertical-align: top;
+
+}
+.table2 { 
+	border: 1px dotted #333333;
+	border-collapse:collapse;
+	line-height: 18px;
+	color: #666666;
+}
+.table2 td { 
+    border: 1px dotted #333333;
+	line-height: 18px;
+	margin: 0px;
+	padding: 5px 0 5px 10px;
+}
+.table3 { 
+	border: 1px dotted #333333;
+	border-collapse:collapse;
+	margin: 0px 0px 1em 0px;
+	padding: 2px;
+	color: #666666;
+}
+.table3 td { 
+    border: 1px dotted #333333;
+	line-height: 18px;
+	margin: 0px;
+	padding: 2px;
+}
+.tableprsearch { 
+	border: 1px dotted #333333;
+	background-color:#CCCCCC;
+	border-collapse:collapse;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+.tableprsearch td { 
+    border: 1px dotted #333333;
+	line-height: 18px;
+	margin: 0px;
+	padding: 5px 0 5px 10px;
+}
+.tablemk { 
+    border-collapse: collapse;
+	margin: 0px 0px 1em 0px;
+	padding: 2px;
+}
+.tablemk td { 
+    border-bottom: 1px #ccc dotted;
+	margin: 0px;
+	padding: 2px;
+}
+/****************************/
+/* TABLE RELATED PRODUCTS LIST
+/****************************/
+.tableRelatedProductsList {
+    border-collapse: collapse;
+    border: 1px #D9D9D9 solid;
+    background-color: #FFFFFF;
+	margin-bottom: 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+.tableRelatedProductsList td {
+	padding: 0px;/* a→2px */
+	vertical-align: top;
+	border-right: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+
+}
+.tableRelatedProductsList tr.even td {/* list.js */
+	background: #FFE1E1;/*#D2F0FF*/
+}
+.tableRelatedProductsList tr.over td {/* list.js */
+	color: #FFFFFF;
+	background-color: #FFD9D9;
+}
+.tableRelatedProductsList a {
+	display: block;
+	padding: 2px;
+}
+.tableRelatedProductsList a:link {
+	color: #2971A7;
+	text-decoration: none;
+}
+.tableRelatedProductsList a:visited {
+	color: #004276;
+	text-decoration: none;
+}
+.tableRelatedProductsList a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tableRelatedProductsList a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/****************************/
+/* TABLE PRODUCTS LIST
+/****************************/
+.tableProductsList {
+	/*font-size: 0.85em;*/
+    border-collapse: collapse;
+    /*border: 1px #D9D9D9 solid;*/
+    background-color: #FFFFFF;
+	margin-bottom: 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+.tableProductsList td {
+	padding: 0 0 0 20px;/* a→2px */
+	vertical-align: top;
+	/*background: url(../../images/bullets.jpg) no-repeat left center;*/
+	/*border-right: 1px solid #D9D9D9;*/
+	/*border-left: 1px solid #D9D9D9;*/
+
+}
+.tableProductsList tr.even td {/* list.js */
+	background: #F2F2F2;
+}
+.tableProductsList tr.over td {/* list.js */
+	background: #CCCCCC;
+	color: #FFFFFF;
+}
+.tableProductsList a {
+	display: block;
+	padding: 2px;
+}
+.tableProductsList a.icon_pdf {/* font.css */
+	display: block;
+	padding: 2px 2px 2px 20px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat left center;
+}
+.tableProductsList a:link {
+	color: #2971A7;
+	text-decoration: none;
+}
+.tableProductsList a:visited {
+	color: #004276;
+	text-decoration: none;
+}
+.tableProductsList a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tableProductsList a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/***************************************************************/
+/* CONTACT　フォーム
+/***************************************************************/
+
+#formButton {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: center;
+}
+#formButton input {
+	margin: 0px 30px 0px 30px;
+	padding: 3px 10px 3px 10px;
+}
+
+#form dl {
+	margin: 0 0 15px;
+	padding: 0 10px 10px;
+	border: 7px #EEEEEE solid;
+}
+#form dl dt {
+	float: left;
+	width: 280px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-indent: 1em;
+	line-height: 150%;
+}
+#form dl dd {
+	padding: 10px 0 10px 280px;
+	line-height: 150%;
+	border-bottom: 1px #CCCCCC solid;
+}
+/***************************************************************/
+/* PHOTO
+/***************************************************************/
+.photo {
+	width: 200px;
+	margin: 0 0 15px 15px;
+	float: right;
+}
+.photo dt {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+.photo dd {
+	font-size: 84%;
+}
+.photo2 {
+	width: 250px;
+	margin: 0 0 15px 15px;
+	float: right;
+}
+.photo2 dt {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+.photo2 dd {
+	font-size: 84%;
+}
+/***************************************************************/
+/* お問い合せ
+/***************************************************************/
+.contact {
+     height:180px;
+	 margin: 0 0 20px 0;
+	 background: url(../../../images/contact_bg.jpg) no-repeat;
+}
+.contactLeft {
+    float:left;
+	width:280px;
+}
+.contactRight {
+    float:right;
+	margin: 100px 37px 0 0;
+}
+ul.listcontact {
+	margin: 70px 0 0 30px;
+	padding: 0px;
+}
+ul.listcontact li {
+	margin: 0 0 10px 0;
+	float: left;
+	color:#666666;
+	font-weight:bold;
+	font-size: 1.0em;
+}
+/***************************************************************/
+/* サポートカタログ
+/***************************************************************/
+.catalogue {
+     height: 50px;
+	 border: 2px #285EA9 solid;
+	 padding: 10px 0 0 20px;　
+}
+.cataloguet ul {
+	float: left;
+	display: inline;
+}
+.catalogue li {
+	margin-right: 20px;
+	padding-left: 12px;
+	float: left;
+	background: url(http://www.arbrown.com/err/notfound.html) left center no-repeat;
+}	 
+/***************************************************************/
+/* SENSOR NAVIGATION
+/***************************************************************/
+.sensorNavi ul {
+	width: 980px;
+	height: 35px;
+	list-style-type: none;
+	margin: 0 0 20px 0;
+}
+.sensorNavi li {
+	margin: 1px 0 1px 1px;
+	padding: 0px;
+	float: left;
+}	 
+/***************************************************************/
+/* Products
+/***************************************************************/
+/*製品紹介各カテゴリー製品リスト*/
+#productsList {
+}
+#productsList h2 {
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 650px;
+	height: 26px;
+	margin-bottom: 10px;
+	padding: 6px 0 0 10px;
+	background: url(http://www.arbrown.com/err/notfound.html) no-repeat;
+}
+
+#productsList li {
+	width: 470px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+#productsList img {
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+#productsList p {
+	display: table-cell;/*上下中央揃え*/
+	vertical-align: middle;/*上下中央揃え*/
+	margin: 0;
+}
+/*for IE6 */  /*上下中央揃え*/
+* html #productsList p {  
+    display: inline;  
+    zoom: 1;  
+}
+/*for IE7 */  /*上下中央揃え*/
+*:first-child+html #productsList p {  
+    display: inline;  
+    zoom: 1;  
+}
+
+/*#formTable {
+	width: 600px;
+} 
+#formTable td {
+	padding: 5px 0px 5px 0px;
+}
+#formTable .formItem {
+	width: 200px;
+	font-weight: bold;
+	color: #666666;
+}
+
+
+#formTableLogin {
+    background-color: #FFFFFF;
+	border-collapse: collapse;
+    border: 1px #666666 solid;
+	width: 300px;
+	margin: auto;
+} 
+#formTableLogin td {
+    border: 1px #CCCCCC solid;
+	padding: 5px;
+}
+#formTableLogin .formItem {
+	width: 80px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #F5F5F5;
+}
+
+#formTableLostPass {
+    border-collapse: collapse;
+    border: 1px #666666 solid;
+	width: 300px;
+	margin: auto;
+} 
+#formTableLostPass td {
+    border: 1px #CCCCCC solid;
+	padding: 5px;
+	text-align: center;
+}
+#formTableLostPass input {
+	width: 250px;
+}
+#formTableLostPass .formItem {
+	font-weight: bold;
+	color: #666666;
+	background-color: #F5F5F5;
+}
+.formTableCalendarTime table {
+    border-collapse: collapse;
+    border: 1px #CCCCCC solid;
+	margin: auto;
+}
+.formTableCalendarTime td {
+    border: 1px #CCCCCC solid;
+	padding: 3px;
+}
+*/
+/***************************************************************/
+/* OUTLINE
+/***************************************************************/
+.outline {
+    float:left;
+	width:710px;
+	border-bottom: 1px dotted #333333;
+	background: url(../../../images/outline_bg.jpg) repeat-y;
+}
+.outlineLeft {
+    float:left;
+	width:165px;
+}
+.outlineRight {
+    float:right;
+	width:535px;
+}
+ul.listoutline {
+	margin: 10px 0 0 0;
+	padding: 0px;
+}
+ul.listoutline li {
+	margin: 0 0 5px 0px;
+
+	padding: 3px 0px 0px 10px;
+}
+
+/***************************************************************/
+/* HISTORY
+/***************************************************************/
+.history {
+    float:left;
+	width:710px;
+	border-bottom: 1px dotted #333333;
+	background: url(../../../images/history_bg.jpg) repeat-y;
+}
+.historyLeft {
+    float:left;
+	width:136px;
+}
+.historyRight {
+    float:right;
+	width:176px;
+	font-size:0.8em;
+}
+ul.listhistory {
+	margin: 10px 0 0 0;
+	padding: 0px;
+}
+ul.listhistory li {
+	margin: 0 0 5px 0px;
+
+	padding: 0px 0px 0px 10px;
+}
+.historyLeft2 {
+    float:left;
+	width:395px;
+}
+/***************************************************************/
+/* SEARCH
+/***************************************************************/
+.search {
+    float:left;
+	width:980px;
+	height:85px;
+	margin-bottom: 10px;   
+	background: url(../../../images/search_bg.jpg) no-repeat;
+}
+.searchbox {
+    float:left;
+	width:267px;
+	height:31px;
+	margin: 30px 0 0 310px;   
+	background: url(../../../images/searchbox_bg.jpg) no-repeat;
+}
+.searchbtn {
+    float:right;
+	margin: 30px 240px 0 0;   
+}
+
+.searchCheck {
+	display: none;
+}
+.searchInput {
+	height: 30px;
+	width: 260px;
+	border: none;
+	padding: 3px 0px 0px 5px;
+	background: none;
+}
+.search2 {
+    float:left;
+	width:980px;
+	height:85px;
+	font-weight:bold;
+	margin-bottom: 10px;   
+	background: url(../../../images/search2_bg.jpg) no-repeat;
+}
+.search2box {
+    float:left;
+	height:31px;
+	margin: 30px 0 0 310px;   
+}
+.search2btn {
+    float:right;
+	margin: 30px 240px 0 0;  
+}
+/***************************************************************/
+/* SITE　SEARCH
+/***************************************************************/
+.s_search {
+    float:left;
+	width:980px;
+	height:85px;
+	margin-bottom: 10px;   
+	background: url(../../../images/s_search_en_bg.jpg) no-repeat;
+}
+.s_searchbox {
+    float:left;
+	width:267px;
+	height:31px;
+	margin: 30px 0 0 310px;   
+	background: url(../../../images/searchbox_bg.jpg) no-repeat;
+}
+.s_searchbtn {
+    float:right;
+	margin: 30px 240px 0 0;   
+}
+
+.s_searchCheck {
+	display: none;
+}
+.s_searchInput {
+	height: 30px;
+	width: 260px;
+	border: none;
+	padding: 3px 0px 0px 5px;
+	background: none;
+}
+.layoutSearchres {
+	float: left;
+	width:940px;
+	background-color:#F1F1F1;
+	padding: 10px 20px 10px 20px;
+	margin-bottom:20px;
+}
+/***************************************************************/
+/* RECRUIT
+/***************************************************************/
+.layoutRecruit3 {
+    float:left;
+	width:650px;
+	height:350px;
+	margin:10px 0 0 30px;
+	background: url(../../../images/rec3_bg.jpg) no-repeat;
+}
+.layoutRecruit31 {
+    float:left;
+	width:700px;
+	margin:10px 0 0 5px;
+}
+.layoutRecruit3p {
+    float:right;
+	width:630px;
+	padding: 5px 0 0 10px;
+}
+.layoutRecruit11 {
+    float:left;
+	width:630px;
+	margin:10px 0 0 5px;
+}
+.layoutRecruit1L {
+    float:right;
+	width:580px;
+	padding: 5px 0 0 5px;
+	background-color:#E6DAE3;
+}
+.layoutRecruit2L {
+    float:right;
+	width:580px;
+	padding: 5px 0 0 5px;
+	background-color:#FCE6DB;
+}
+.layoutRecruit3L {
+    float:right;
+	width:580px;
+	padding: 5px 0 0 5px;
+	background-color:#DAF0DF;
+}
+.layoutRightrec {
+	float: right;
+	width:500px;
+}
+.layoutRightrecimg {
+	float: right;
+	width:350px;
+}
+/***************************************************************/
+/* RECRUITMAP
+/***************************************************************/
+.layoutRmap {
+    float:left;
+	width:710px;
+	height:400px;
+	margin:10px 0 0 0;
+	background: url(../../../images/map.jpg) no-repeat;
+}
+.layoutmap1 {
+    float:left;
+	width:193px;
+	margin:30px 241px 0 276px;
+}
+.layoutmap2 {
+    float:right;
+	width:193px;
+	margin:2px 30px 0 0;
+}
+.layoutmap3 {
+    float:left;
+	width:193px;
+	margin:2px 0 0 153px;
+}
+/****************************/
+/* TABLE PARTNER LIST
+/****************************/
+.tablepartner {
+    border-collapse: collapse;
+	margin-bottom: 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.tablepartner tr:nth-child(even) {
+	background:#F2F2F2;
+}
+.tablepartner td {
+	padding: 0 0 0 20px;
+}
+.tablepartner th {
+	background: #FFFFFF;
+}
+.tablepartner .even {
+	background: #F2F2F2;
+}
+.tablepartner .hover {
+	background: #CCCCCC;
+}
+
+
+
+/***************************************************************/
+/* LOGIN
+/***************************************************************/
+.login {
+    float:left;
+	width:500px;
+	height:200px;
+	margin-bottom: 10px;   
+	background: url(../../../images/login_bg.jpg) no-repeat;
+}
+.loginbox {
+    float:left;
+	width:267px;
+	height:31px;
+	margin: 50px 0 0 154px;   
+	background: url(../../../images/searchbox_bg.jpg) no-repeat;
+}
+.loginbox2 {
+    float:left;
+	width:267px;
+	height:31px;
+	margin: 30px 0 0 154px;   
+	background: url(../../../images/searchbox_bg.jpg) no-repeat;
+}
+.loginbtn {
+    float:left;
+	margin: 20px 0 0 194px;   
+}
+
+.loginCheck {
+	display: none;
+}
+.loginInput {
+	height: 30px;
+	width: 260px;
+	border: none;
+	padding: 3px 0px 0px 5px;
+	background: none;
+}
+/***************************************************************/
+/* サイトマップ
+/***************************************************************/
+.sitemap {
+	float: left;
+	width: 965px;
+	margin: 0 0 0 10px;
+	background:url(../../../images/sitemap_m_bg.jpg) left top repeat-y;	
+}
+.sitemapbottom {
+	float: left;
+	width: 965px;
+	height: 15px;
+	margin: 0 0 0 10px;
+	background:url(../../../images/sitemap_b_bg.jpg) left top no-repeat;	
+}
+dl.sitemapcol3 {
+  float: left;
+  width: 300px;
+  margin: 20px 0 0 20px;
+}
+dl.sitemapcol3 dt {
+  float: left;
+  width: 295px;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  border-left: 3px solid #E29125;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+dl.sitemapcol3 dd {
+  padding-top: 10px;
+  width: 300px;
+}
+ul.listsitemap {
+  margin: 10px 0 0 10px;
+}
+ul.listsitemap li {
+  padding-left: 15px;
+  margin: 0.5em;
+  font-size:0.8em;
+  background: url(../../../images/sitemap_li_bg.jpg) left center no-repeat;	
+}
+ul.listsitemap2 {
+  margin: 10px 0 0 40px;
+}
+ul.listsitemap2 li {
+  float:left;
+  width: 250px;
+  padding-left: 15px;
+  margin: 0.5em;
+  font-size:0.8em;
+  background: url(../../../images/sitemap_li2_bg.jpg) left center no-repeat;	
+}
+
+/***************************************************************/
+/* MILKTEST
+/***************************************************************/
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #aaa;
+}
+
+.codrops-demos a {
+    display: inline-block;
+    margin: 10px 1px 0 1px;
+    color: #333;
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 4px solid transparent;
+	background: #eee;
+	padding: 0 10px;
+}
+
+.codrops-demos a:hover {
+	color: #883d59;
+	border-color: #883d59;
+}
+
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	color: #aaa;
+	border-color: #aaa;
+	background: #fff;
+}
+
+.section_milk {
+	margin: 0px 0px 25px 0px;
+	min-height: 1px;　/* IE 7対策 */
+	line-height: normal;
+	letter-spacing: normal;
+	font-size: 105%;
+	color: #222;
+	line-height: 160%;
+}
+/* float clear */
+.section_milk:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.section_milk { display: inline-table; }
+/* Mac IE には適用させない \*/
+* html .section_milk { height :1px; }
+.section_milk { display: block; }
+
+ul.milktop{
+	margin: 30px -20px 0 0;
+	clear: both;
+}
+ul.milktop li{
+	margin: 0 20px 20px 0;
+	float: left;
+	background: #f1f1f1;
+	padding: 10px;
+	width: 292px;
+}
+ul.milktop li h2{
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+	margin: 10px 0 20px 0;
+	border-bottom: 1px dotted #ccc;
+}
+ul.milktop li h2 span{
+	letter-spacing: 0.1px;
+	font-size: 80%;
+}
+ul.milktop li p{
+	font-size: 88%;
+}
+ul.milk_how{
+	margin: 0;
+	clear: both;
+}
+ul.milk_how li{
+	margin: 0 10px;
+	float: left;
+	padding: 5px;
+	width: 206px;
+}
+ul.milk_how img{
+	margin: 0 auto;
+}
+ul.milkt{
+	margin: 0 0 0 20px;
+}
+ul.milkt li{
+	font-weight: bold;
+	font-size: 105%;
+	list-style: disc;
+}
+ul.milktl{
+	margin: 0 0 0 20px;
+	width: 740px;
+}
+ul.milktl li{
+	font-weight: bold;
+	font-size: 105%;
+	list-style: disc;
+	clear: both;
+}
+dl.milktsp{
+	margin: 0 0 0 20px;
+}
+dl.milktsp dt{
+	width: 300px;
+	clear: both;
+	float: left;
+	line-height: 150%;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+dl.milktsp dd{
+	padding-left: 300px;
+	line-height: 150%;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+dl.milktsp dd span{
+	padding-right: 180px;
+	line-height: 150%;
+	margin-bottom: 10px;
+	float: right;
+	text-align: left;
+	width: 200px;
+}
+dl.milktqa dt{
+	clear: both;
+	margin-bottom: 8px;
+	font-weight: 700;
+	padding-left: 5px;
+}
+dl.milktqa dt::before{
+	content: "Q.";
+	font-weight: 700;
+	margin-right: 5px;
+}
+dl.milktqa dd{
+	margin-bottom: 20px;
+	padding-left: 10px;
+	line-height: 150%;
+}
+dl.milktqa dd::before{
+	content: "A.";
+	font-weight: 700;
+	margin-right: 5px;
+}
+
+dl.milkt dt:before{
+	content: ""
+}
+dl.milkt span{
+	padding: 1em;
+	margin: 10px 0;
+}
+ul.milktvsp{
+	margin: 15px 0px 15px 15px;
+}
+ul.milktvsp li{
+	margin:0 5px 8px 0;
+	border-bottom: 1px dotted #ccc;
+	float: left;
+	width: 32%;
+}
+.talc{text-align: center;line-height: 150%; }
+.talb{text-align: center; font-weight: 700;}
+
+.milktaw{
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 16px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.milktaw::before,
+.milktaw::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    content: “>”;
+    vertical-align: middle;
+}
+.yj4::before{
+    left: 4px;
+    box-sizing: border-box;
+    width: 4px;
+    height: 4px;
+    border: 4px solid transparent;
+    border-left: 4px solid #444;
+}
+
+/*PDF　ダウンロードボタン*/
+.pdf_dl {
+	background-color: #B02928;
+	border: 2px solid #B02928;
+	line-height: 50px;
+	padding: 4px 16px 4px 16px;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+}
+.pdf_dl:hover {
+	background-color: #ccc;
+	border-color: #B02928;
+	color: #B02928;
+}
+.pdf_dl:link,.pdf_dl:active,.pdf_dl:visited {
+	color: #fff;
+}
+
+.mail_to {
+	background-color: #00A3D9;
+	border: 2px solid #00A3D9;
+	line-height: 50px;
+	padding: 4px 32px 4px 32px;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+}
+.mail_to:hover {
+	background-color: #ccc;
+	border-color: #00A3D9;
+	color: #00A3D9;
+}
+.mail_to:link,.mail_to:active,.mail_to:visited {
+	color: #fff;
+}
+
+.file_to {
+	background-color: #FF7F00;
+	border: 2px solid #FF7F00;
+	line-height: 50px;
+	padding: 4px 16px 4px 16px;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+}
+.file_to:hover {
+	background-color: #ccc;
+	border-color: #FF7F00;
+	color: #FF7F00;
+}
+.file_to:link,.file_to:active,.file_to:visited {
+	color: #fff;
+}
+
+/*sampleボタン*/
+.md_sample {
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #007FFF;
+	border: 2px solid #007FFF;
+	line-height: 50px;
+	padding: 8px 15px 8px 15px;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+	color: #fff;
+	font-size: 120%;
+}
+.md_sample:hover {
+	opacity: 0.8;
+}
+.md_sample:link,.md_sample:active,.md_sample:visited {
+	color: #fff;
+}
+ul.md {
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+
+ul.md li {
+  line-height: 1.5;
+	font-size: 110%;
+  padding: 0.5em 0;
+  list-style-type: none!important;/*ポチ消す*/
+}
+
+ul.md li:before {/*疑似要素*/
+  font-family: FontAwesome;
+  content: "\f046";
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: #ffb03f; /*アイコン色*/
+}
+
+

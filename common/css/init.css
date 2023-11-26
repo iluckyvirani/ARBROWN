@@ -1,0 +1,32 @@
+/*ユニバーサルセレクタ　デフォルトのCSSをリセット
+
+* {
+	margin: 0;
+	padding: 0;
+}*/
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,p,blockquote { /*form,fieldset,input,textarea,th,td*/
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-y: scroll;
+}
+img {
+	border: none;
+}
+ul,ol {
+	list-style-type: none;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+	width: 0px;
+	display: inline;
+}
+fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}

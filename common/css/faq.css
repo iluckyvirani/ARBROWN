@@ -1,0 +1,30 @@
+p,dl{
+    line-height:        150%;
+    margin-bottom:      10px
+}
+dl,dt,dd{
+    padding:            0;
+    margin:             0;
+}
+.faqs{
+    padding-top:        20px;
+}
+.faqs dt{
+    font-weight:        bold;
+    background:         url(images/q.gif) 0 4px no-repeat;
+    padding:            3px 0 10px 30px;
+    position:           relative;
+}
+.faqs dt:hover{
+    cursor:             pointer;
+}
+.faqs dd{
+    background:         url(images/a.gif) 0 2px no-repeat;
+    padding:            0 0 10px 30px;
+    position:           relative;
+    color:              #333;
+}
+.faqs .hover{
+    color:              #990000;
+    text-decoration: none;
+}

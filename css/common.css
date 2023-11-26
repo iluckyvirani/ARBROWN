@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "メイリオ", "ヒラギノ角ゴシック", Arial, sans-serif;
+  color: #0a0a0a;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+#header.m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+.fade {
+  opacity: 0;
+  transform: translate(0, 30px);
+  transition: 1s;
+}
+
+.fade.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@media screen and (max-width: 834px) {
+  .dp_pc {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 835px) {
+  .dp_sp {
+    display: none !important;
+  }
+}

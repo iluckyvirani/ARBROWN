@@ -1,0 +1,316 @@
+/* Slider */
+
+.slick-dots {
+    text-align: right;
+    width: 370px;
+    margin: 5px 0 0 auto !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.slick-dots::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 7px;
+    left: 0;
+    height: 1px;
+    width: 370px;
+    background: #fff;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 !important;
+    padding: 0 80px 0 0 !important;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.slick-dots li:last-child {
+    padding: 0 !important;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:before {
+    content: "";
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #804f29;
+}
+
+.slick-dots li:nth-child(1).slick-active::after {
+    content: "1949-1969";
+    white-space: nowrap;
+    position: absolute;
+    right: 75px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    color: #804f29;
+    font-weight: bold;
+}
+
+.slick-dots li:nth-child(2).slick-active::after {
+    content: "1970-1986";
+    white-space: nowrap;
+    position: absolute;
+    right: 75px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    color: #804f29;
+    font-weight: bold;
+}
+
+.slick-dots li:nth-child(3).slick-active::after {
+    content: "1987-2005";
+    white-space: nowrap;
+    position: absolute;
+    right: 75px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    color: #804f29;
+    font-weight: bold;
+}
+
+.slick-dots li:nth-child(4).slick-active::after {
+    content: "2006-2015";
+    white-space: nowrap;
+    position: absolute;
+    right: 75px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    color: #804f29;
+    font-weight: bold;
+}
+
+.slick-dots li:nth-child(5).slick-active::after {
+    content: "2016-2020";
+    white-space: nowrap;
+    position: absolute;
+    right: -5px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    color: #804f29;
+    font-weight: bold;
+}
+
+.slick-dots li.slick-active::before {
+    content: "|";
+    white-space: nowrap;
+    position: absolute;
+    right: 79px;
+    bottom: -7px;
+    font-size: 1.3rem;
+    color: #804f29;
+}
+
+.slick-dots li:last-child.slick-active::before {
+    right: -1px;
+}
+
+@media screen and (max-width: 834px) {
+    .slick-dots {
+        width: 300px;
+        margin: 15px auto 0 !important;
+    }
+
+    .slick-dots::before {
+        top: 10px;
+        width: 300px;
+    }
+
+    .slick-dots li {
+        width: 20px;
+        height: 20px;
+        padding: 0 50px 0 0 !important;
+    }
+
+    .slick-dots li button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .slick-dots li button:before {
+        line-height: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .slick-dots li:nth-child(1).slick-active::after {
+        right: auto;
+        left: 0;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .slick-dots li:nth-child(2).slick-active::after {
+        right: auto;
+        left: 0;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .slick-dots li:nth-child(3).slick-active::after {
+        right: auto;
+        left: 0;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .slick-dots li:nth-child(4).slick-active::after {
+        right: 48px;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .slick-dots li:nth-child(5).slick-active::after {
+        right: 0;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .slick-dots li.slick-active::before {
+        right: 52px;
+        bottom: -8px;
+    }
+
+    .slick-dots li:last-child.slick-active::before {
+        right: 3px;
+    }
+}
+
+.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: "";
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+.slick-slide img {
+    display: block;
+}
+.slick-slide.slick-loading img {
+    display: none;
+}
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}

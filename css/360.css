@@ -1,0 +1,1387 @@
+@charset "UTF-8";
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 21, 38, 0.85);
+  transition: 1s;
+  cursor: pointer;
+}
+
+#modal {
+  z-index: 2;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #231815;
+}
+
+#contents_360 {
+  animation: fadeIn 3s ease 0s 1 normal;
+  -webkit-animation: fadeIn 3s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#contents_360 #head {
+  background: url("../360/img/head_pc.jpg") center no-repeat;
+  height: 784px;
+  position: relative;
+  width: 100%;
+  min-width: 1200px;
+}
+@media screen and (min-width: 1920px) {
+  #contents_360 #head {
+    background-size: cover;
+  }
+}
+#contents_360 #head h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21rem;
+  font-feature-settings: "palt";
+  letter-spacing: 1rem;
+  margin-left: 1.5rem;
+}
+#contents_360 #head h1 span {
+  font-size: 5.5rem;
+  display: block;
+  letter-spacing: 3rem;
+  margin-left: 1.5rem;
+}
+#contents_360 #head p {
+  position: absolute;
+  right: 80px;
+  bottom: 50px;
+  text-align: right;
+}
+#contents_360 #head p span {
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  padding: 5px 8px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#contents_360 nav {
+  background-color: #001526;
+  padding: 100px 4%;
+  min-width: 1200px;
+  box-sizing: border-box;
+}
+#contents_360 nav h2 {
+  text-align: center;
+  color: #b8b8b8;
+  letter-spacing: 3rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  line-height: 1;
+}
+#contents_360 nav h2 br {
+  display: none;
+}
+#contents_360 nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contents_360 nav ul li {
+  width: 23.7%;
+  margin-top: 4rem;
+}
+#contents_360 nav ul li a {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+  padding-left: 0.7rem;
+  padding: 3rem 0 3rem 0.7rem;
+  width: calc(100% - 5px);
+  height: calc(100% - 7px);
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0 0 white;
+  transition: 0.3s;
+  line-height: 1.3;
+  z-index: 1;
+}
+#contents_360 nav ul li a:hover {
+  border: 1px solid #804f29;
+  box-shadow: 5px 5px 0 0 #804f29;
+}
+#contents_360 nav ul li a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s;
+  opacity: 0;
+}
+#contents_360 nav ul li a:hover::before {
+  opacity: 1;
+}
+#contents_360 nav ul li a span {
+  display: block;
+  font-size: 1.6rem;
+  letter-spacing: 0.4rem;
+  padding-bottom: 0;
+}
+#contents_360 nav ul li a strong {
+  font-weight: 100;
+}
+#contents_360 nav ul li:nth-child(1) a::before {
+  background: url("../360/img/nav_01.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(2) a::before {
+  background: url("../360/img/nav_02.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(3) a::before {
+  background: url("../360/img/nav_03.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(4) a::before {
+  background: url("../360/img/nav_04.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(5) a::before {
+  background: url("../360/img/nav_05.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(6) a::before {
+  background: url("../360/img/nav_06.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(7) a::before {
+  background: url("../360/img/nav_07.jpg") center;
+  background-size: cover;
+}
+#contents_360 nav ul li:nth-child(8) a::before {
+  background: url("../360/img/nav_08.jpg") center;
+  background-size: cover;
+}
+#contents_360 #roots {
+  background: url("../360/img/roots_bg.jpg");
+  position: relative;
+  min-width: 1200px;
+  padding: 0 4%;
+  box-sizing: border-box;
+}
+#contents_360 #roots .inner {
+  display: flex;
+  align-items: center;
+}
+#contents_360 #roots .inner .img {
+  width: 50%;
+}
+#contents_360 #roots .inner .img img {
+  width: 100%;
+}
+#contents_360 #roots .inner .txt {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 8px 8px 0 0 #804f29;
+  padding: 5vw;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: relative;
+}
+#contents_360 #roots .inner .txt h2 {
+  font-size: 2.8rem;
+  letter-spacing: 0.2rem;
+}
+#contents_360 #roots .inner .txt h2 span {
+  font-size: 1.8rem;
+  display: block;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+#contents_360 #roots .inner .txt p {
+  font-size: 1.5rem;
+}
+#contents_360 #roots .inner .txt a {
+  position: absolute;
+  bottom: -40px;
+  right: 90px;
+  background: #001526;
+  color: #fff;
+  width: 400px;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  padding-left: 0.7rem;
+  padding: 3rem 0 3rem 5rem;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 0 0 white;
+  transition: 0.3s;
+  line-height: 1.3;
+  z-index: 1;
+}
+#contents_360 #roots .inner .txt a::after {
+  content: url("../360/img/btn_cursor.png");
+  margin-left: 15px;
+  vertical-align: 1px;
+  transition: 0.3s;
+}
+#contents_360 #roots .inner .txt a:hover {
+  border: 1px solid #804f29;
+  box-shadow: 5px 5px 0 0 #804f29;
+}
+#contents_360 #roots .inner .txt a:hover::after {
+  margin-left: 30px;
+}
+#contents_360 #philosophy {
+  background: #001526;
+  padding: 150px 4%;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 1200px;
+}
+#contents_360 #philosophy h2 {
+  color: #b8b8b8;
+  font-size: 2.5vw;
+  font-weight: bold;
+  letter-spacing: 2.6vw;
+  margin-right: -3.2rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+#contents_360 #philosophy .inner {
+  background: #fff;
+  padding: 6rem;
+  box-sizing: border-box;
+}
+#contents_360 #philosophy .inner img {
+  display: block;
+  margin: 0 auto 3rem;
+}
+#contents_360 #philosophy .inner .frame {
+  display: flex;
+  justify-content: space-between;
+}
+#contents_360 #philosophy .inner .frame .txt {
+  width: 46%;
+}
+#contents_360 #philosophy .inner .frame .txt h3 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+#contents_360 #philosophy .inner .frame .txt h3 span {
+  color: #804f29;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-left: 2rem;
+}
+#contents_360 #philosophy .inner .frame .txt h3::after {
+  content: "";
+}
+#contents_360 #philosophy .inner .frame .txt p {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+#contents_360 #philosophy .inner .frame .txt p.read {
+  padding: 25px 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+#contents_360 #philosophy .inner .frame .txt p strong {
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  margin-left: -0.5rem;
+  margin-bottom: 1rem;
+}
+#contents_360 #philosophy .inner .frame .txt p strong span {
+  font-style: oblique;
+}
+#contents_360 #history {
+  background: #001526;
+  padding: 150px 4%;
+  box-sizing: border-box;
+  min-width: 1200px;
+  width: 100%;
+  background: #b8b8b8 url("../360/img/history_bg.jpg") no-repeat center top;
+}
+#contents_360 #history .inner h2 {
+  color: #fff;
+  font-size: 4vw;
+  font-weight: bold;
+  letter-spacing: 3.6vw;
+  padding-bottom: 10rem;
+  text-align: center;
+  text-indent: 3vw;
+}
+#contents_360 #history .inner h2 span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: 1rem;
+  padding-top: 5rem;
+}
+#contents_360 #history .inner h2:first-letter {
+  letter-spacing: 1.5vw;
+}
+#contents_360 #history .inner .history_box {
+  display: flex;
+}
+#contents_360 #history .inner .history_box .img {
+  width: 50%;
+}
+#contents_360 #history .inner .history_box .img img {
+  vertical-align: bottom;
+  width: 100%;
+}
+#contents_360 #history .inner .history_box .img.history_img01 {
+  background: url("../360/img/history_01.jpg") center;
+  background-size: cover;
+}
+#contents_360 #history .inner .history_box .img.history_img02 {
+  background: #fff url("../360/img/history_02.jpg") center no-repeat;
+  background-size: contain;
+}
+#contents_360 #history .inner .history_box .img.history_img03 {
+  background: url("../360/img/history_03.jpg") center;
+  background-size: cover;
+}
+#contents_360 #history .inner .history_box .img.history_img04 {
+  background: url("../360/img/history_04.jpg") center;
+  background-size: cover;
+}
+#contents_360 #history .inner .history_box .img.history_img05 {
+  background: url("../360/img/history_05.jpg") center;
+  background-size: cover;
+}
+#contents_360 #history .inner .history_box .txt {
+  width: 50%;
+  background: #fff;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-bottom: 8px solid #804f29;
+}
+#contents_360 #history .inner .history_box .txt .chapter {
+  display: block;
+  background: #80848b;
+  width: 120px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+#contents_360 #history .inner .history_box .txt .year {
+  color: #80848b;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.3rem;
+}
+#contents_360 #history .inner .history_box .txt h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+#contents_360 #quality {
+  color: #fff;
+  background: #001526;
+  padding: 150px 0;
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 1200px;
+  width: 100%;
+}
+#contents_360 #quality .inner h2 {
+  font-size: 3.9rem;
+  font-weight: bold;
+  letter-spacing: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 8rem;
+  margin-bottom: 5rem;
+  background: url("../360/img/icn_white.svg") no-repeat bottom center;
+  background-size: 40px 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#contents_360 #quality .inner h2 span {
+  font-size: 2.1rem;
+  display: block;
+  letter-spacing: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2.5rem;
+}
+#contents_360 #quality .inner strong.head {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+#contents_360 #quality .inner p.head {
+  color: #fff;
+  font-size: 1.6rem;
+  width: 1070px;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 10rem;
+}
+#contents_360 #quality .inner .quality_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 4%;
+  box-sizing: border-box;
+  position: relative;
+}
+#contents_360 #quality .inner .quality_list .box {
+  width: 50%;
+  background: #fff;
+  height: 130px;
+}
+#contents_360 #quality .inner .quality_list .box:nth-child(2n) {
+  margin-top: 68px;
+}
+#contents_360 #quality .inner .quality_list .box#box01 .img {
+  background: url("../360/img/quality_nav_01.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list .box#box02 .img {
+  background: url("../360/img/quality_nav_04.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list .box#box03 .img {
+  background: url("../360/img/quality_nav_02.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list .box#box04 .img {
+  background: url("../360/img/quality_nav_05.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list .box#box05 .img {
+  background: url("../360/img/quality_nav_03.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list .box#box06 .img {
+  background: url("../360/img/quality_nav_06.jpg") center center;
+  background-size: cover;
+}
+#contents_360 #quality .inner .quality_list div.frame {
+  position: relative;
+  height: 130px;
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+}
+#contents_360 #quality .inner .quality_list div.frame .img {
+  width: 50%;
+}
+#contents_360 #quality .inner .quality_list div.frame .txt {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  background: #fff;
+  color: #001526;
+  padding-left: 4rem;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
+#contents_360 #quality .inner .quality_list div.frame .txt p {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+#contents_360 #quality .inner .quality_list div.frame .txt p span {
+  font-size: 1.8rem;
+  font-style: oblique;
+  display: block;
+  letter-spacing: 0.3rem;
+}
+#contents_360 #quality .inner .quality_list div.frame .txt div {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  content: "OPEN VIEW ■";
+  font-style: oblique;
+  font-size: 1.3rem;
+  color: #7f858d;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+#contents_360 #quality .inner .quality_list div.frame div.open {
+  position: absolute;
+  right: 0;
+  top: 130px;
+  z-index: 999999999999999;
+  background-color: #fff;
+  width: 50%;
+  margin-left: auto;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#contents_360 #quality .inner .quality_list div.frame div.open p {
+  padding: 0 4rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  transition: 0.5s;
+}
+#contents_360 #quality .inner .quality_list div.frame div.open p a.link {
+  display: inline-block;
+  padding: 10px 10px 10px 20px;
+  color: #092237;
+  text-decoration: underline;
+  position: relative;
+  transition: 0.3s;
+}
+#contents_360 #quality .inner .quality_list div.frame div.open p a.link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../img/cursor_link.svg") no-repeat;
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: 16px;
+  transition: 0.3s;
+}
+#contents_360 #quality .inner .quality_list div.frame div.open div {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  content: "OPEN VIEW ■";
+  font-style: oblique;
+  font-size: 1.3rem;
+  color: #7f858d;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+#contents_360 #asia {
+  padding: 0 0 150px;
+  min-width: 1200px;
+  width: 100%;
+}
+#contents_360 #asia .inner_read {
+  background: url("../360/img/asia_bg.png") no-repeat top left;
+  height: 870px;
+  position: relative;
+}
+#contents_360 #asia .inner_read div {
+  position: absolute;
+  top: 390px;
+  left: 45%;
+  padding: 0 4%;
+}
+#contents_360 #asia .inner_read div h2 {
+  font-weight: 100;
+  font-size: 2.3rem;
+  letter-spacing: 0.6rem;
+  padding-bottom: 3rem;
+}
+#contents_360 #asia .inner_read div h2 span {
+  font-size: 3.9rem;
+  letter-spacing: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+#contents_360 #asia .inner_txt {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contents_360 #asia .inner_txt div {
+  margin-top: 5rem;
+  width: 47%;
+}
+#contents_360 #asia .inner_txt div h3 {
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  padding-bottom: 1rem;
+}
+#contents_360 #asia .inner_txt div p {
+  font-size: 1.6rem;
+}
+#contents_360 #company {
+  background: #d4d5d7;
+  padding: 150px 4% 0;
+  min-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#contents_360 #company .inner h2 {
+  font-size: 3.9rem;
+  font-weight: bold;
+  letter-spacing: 2rem;
+  margin-bottom: 4rem;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 4rem;
+  padding-bottom: 8rem;
+  margin-bottom: 5rem;
+  background: url("../360/img/icn.svg") no-repeat bottom center;
+  background-size: 40px 40px;
+}
+#contents_360 #company .inner h2 span {
+  font-size: 2.1rem;
+  display: block;
+  letter-spacing: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2.5rem;
+}
+#contents_360 #company .inner strong.head {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+#contents_360 #company .inner p.head {
+  font-size: 1.6rem;
+  width: 1100px;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+#contents_360 #company .inner .detail ul {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+#contents_360 #company .inner .detail ul li {
+  width: 49%;
+  border: 2px solid #001526;
+  box-sizing: border-box;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+#contents_360 #company .inner .detail ul li div p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 0.3rem;
+}
+#contents_360 #company .inner .detail ul li div p strong {
+  display: block;
+  font-size: 2.5rem;
+  opacity: 0.65;
+  margin-top: 1rem;
+}
+#contents_360 #company .inner .detail ul li div p:not(:first-child) {
+  margin-top: 1.5rem;
+}
+#contents_360 #company .inner .detail ul li div p span {
+  display: block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+#contents_360 #company .inner .detail a {
+  border: 2px solid #001526;
+  color: #001526;
+  width: 325px;
+  display: block;
+  margin: 30px auto 0;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  text-indent: 0.5rem;
+  background-color: #fff;
+  line-height: 7rem;
+}
+#contents_360 #motivation {
+  background: #d4d5d7;
+  padding: 150px 4%;
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 1200px;
+  width: 100%;
+}
+#contents_360 #motivation .inner h2 {
+  font-size: 3.6rem;
+  letter-spacing: 1rem;
+  line-height: 1.8;
+  margin-bottom: 5rem;
+}
+#contents_360 #motivation .inner .detail ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+#contents_360 #motivation .inner .detail ul li {
+  width: 49%;
+}
+#contents_360 #motivation .inner .detail ul li img {
+  width: 100%;
+}
+#contents_360 #motivation .inner .detail ul li p {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+#contents_360 #owner {
+  background: #d4d5d7;
+  color: #fff;
+  padding: 150px 4%;
+  min-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background: #000f1c url("../360/img/owner_bg.jpg") center top no-repeat;
+}
+#contents_360 #owner .inner h2 {
+  font-size: 3.9rem;
+  font-weight: bold;
+  letter-spacing: 5rem;
+  margin-bottom: 4rem;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 3rem;
+  padding-bottom: 8rem;
+  margin-bottom: 5rem;
+  background: url("../360/img/icn_white.svg") no-repeat bottom center;
+  background-size: 40px 40px;
+}
+#contents_360 #owner .inner h2 span {
+  font-size: 2.1rem;
+  display: block;
+  letter-spacing: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 2.5rem;
+}
+#contents_360 #owner .inner strong.head {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: 1rem;
+  margin-bottom: 5rem;
+  line-height: 1.8;
+}
+#contents_360 #owner .inner p.head {
+  font-size: 1.6rem;
+  width: 980px;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 10rem;
+  color: #fff;
+}
+#contents_360 #owner .inner .graph {
+  background: #fff;
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+#contents_360 #owner .inner .graph h3 {
+  font-size: 3.2rem;
+  letter-spacing: 1rem;
+  color: #824f29;
+  margin-bottom: 4rem;
+}
+#contents_360 #owner .inner .graph img {
+  width: 100%;
+}
+
+@media screen and (max-width: 834px) {
+  #contents_360 #head {
+    background: none;
+    height: auto;
+    width: 100%;
+    min-width: auto;
+  }
+  #contents_360 #head h1 {
+    font-size: 27vw;
+  }
+  #contents_360 #head h1 span {
+    font-size: 6vw;
+    letter-spacing: 2rem;
+    margin-left: 0;
+  }
+  #contents_360 #head p {
+    right: 3%;
+    bottom: 3%;
+  }
+  #contents_360 #head p span {
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #contents_360 #head img {
+    width: 100%;
+  }
+  #contents_360 nav {
+    padding: 50px 3%;
+    min-width: auto;
+  }
+  #contents_360 nav h2 {
+    letter-spacing: 4vw;
+    font-size: 5vw;
+    line-height: 1.5;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #contents_360 nav h2 br {
+    display: block;
+  }
+  #contents_360 nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #contents_360 nav ul li {
+    width: 49%;
+    margin-top: 1rem;
+  }
+  #contents_360 nav ul li a {
+    letter-spacing: 0.5rem;
+    padding-left: 0;
+    padding: 2rem 1vw 2.5rem;
+    box-shadow: 3px 3px 0 0 white;
+  }
+  #contents_360 nav ul li a:hover {
+    border: 1px solid #804f29;
+    box-shadow: 5px 5px 0 0 #804f29;
+  }
+  #contents_360 nav ul li a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s;
+    opacity: 0;
+  }
+  #contents_360 nav ul li a:hover::before {
+    opacity: 1;
+  }
+  #contents_360 nav ul li a span {
+    font-size: 3vw;
+    display: block;
+    letter-spacing: 0.3vw;
+    padding-bottom: 0;
+  }
+  #contents_360 nav ul li a strong {
+    display: none;
+  }
+  #contents_360 #roots {
+    min-width: auto;
+    padding: 0 3% 100px 3%;
+  }
+  #contents_360 #roots .inner {
+    display: block;
+  }
+  #contents_360 #roots .inner .img {
+    width: 100%;
+  }
+  #contents_360 #roots .inner .txt {
+    width: 90%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 0 0 #804f29;
+    padding: 2.5rem 2.5rem 5rem;
+  }
+  #contents_360 #roots .inner .txt h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+  #contents_360 #roots .inner .txt h2 span {
+    font-size: 1.7rem;
+    margin: 15px 0;
+  }
+  #contents_360 #roots .inner .txt p {
+    font-size: 1.4rem;
+  }
+  #contents_360 #roots .inner .txt a {
+    bottom: -50px;
+    right: 20px;
+    width: 270px;
+    text-align: left;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    padding-left: 0;
+    padding: 3rem 0 3rem 2rem;
+    box-shadow: 3px 3px 0 0 white;
+    line-height: 1;
+  }
+  #contents_360 #roots .inner .txt a::after {
+    margin-left: 10px;
+  }
+  #contents_360 #philosophy {
+    padding: 50px 4%;
+    box-sizing: border-box;
+    min-width: auto;
+  }
+  #contents_360 #philosophy h2 {
+    font-size: 5vw;
+    letter-spacing: 1.5rem;
+    margin-right: 0;
+    line-height: 1.6;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+  }
+  #contents_360 #philosophy .inner {
+    min-width: auto;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  #contents_360 #philosophy .inner img {
+    margin: 0 auto 2rem;
+    max-width: 100%;
+    width: auto;
+  }
+  #contents_360 #philosophy .inner .frame {
+    display: block;
+  }
+  #contents_360 #philosophy .inner .frame .txt {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  #contents_360 #philosophy .inner .frame .txt h3 {
+    font-size: 2.4rem;
+  }
+  #contents_360 #philosophy .inner .frame .txt h3 span {
+    font-size: 1.3rem;
+    margin-left: 0;
+    margin-top: 1rem;
+    display: block;
+  }
+  #contents_360 #philosophy .inner .frame .txt p {
+    font-size: 1.4rem;
+  }
+  #contents_360 #philosophy .inner .frame .txt p.read {
+    padding: 20px 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
+  #contents_360 #philosophy .inner .frame .txt p strong {
+    letter-spacing: 0;
+    margin-left: 0;
+  }
+  #contents_360 #history {
+    padding: 50px 0;
+    min-width: auto;
+  }
+  #contents_360 #history .inner h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+    line-height: 1.5;
+    padding-bottom: 4rem;
+    margin-right: 0;
+  }
+  #contents_360 #history .inner h2 span {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+  #contents_360 #history .inner .history_box {
+    display: block;
+  }
+  #contents_360 #history .inner .history_box .img {
+    width: 100%;
+  }
+  #contents_360 #history .inner .history_box .txt {
+    width: 100%;
+    background: #fff;
+    padding: 2rem;
+  }
+  #contents_360 #history .inner .history_box .txt .year {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  #contents_360 #history .inner .history_box .txt h3 {
+    font-size: 1.8em;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+  #contents_360 #history .inner .history_box .txt p {
+    font-size: 1.4rem;
+  }
+  #contents_360 #quality {
+    background: #001526;
+    padding: 50px 0;
+    min-width: auto;
+  }
+  #contents_360 #quality .inner h2 {
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    margin-left: 10px;
+    margin-bottom: 2.5rem;
+    background: url("../360/img/icn_white.svg") no-repeat bottom center;
+    background-size: 30px 30px;
+    display: inline-block;
+    padding: 0 4% 5rem;
+    box-sizing: border-box;
+    text-indent: 2rem;
+  }
+  #contents_360 #quality .inner h2 span {
+    font-size: 1.4rem;
+    letter-spacing: 1.5rem;
+    margin-right: 1rem;
+  }
+  #contents_360 #quality .inner strong.head {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    padding: 0 4%;
+    box-sizing: border-box;
+    letter-spacing: 0.2rem;
+  }
+  #contents_360 #quality .inner p.head {
+    text-align: left;
+    font-size: 1.4rem;
+    width: 100%;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    padding: 0 4%;
+    box-sizing: border-box;
+  }
+  #contents_360 #quality .inner .quality_list {
+    padding-left: 0;
+  }
+  #contents_360 #quality .inner .quality_list .box {
+    width: 100%;
+    background: #fff;
+    height: 100px;
+    margin-top: 5px;
+    position: inherit;
+  }
+  #contents_360 #quality .inner .quality_list .box:nth-child(2n) {
+    margin-top: 5px;
+  }
+  #contents_360 #quality .inner .quality_list div.frame {
+    position: inherit;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .img {
+    width: 30%;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .txt {
+    width: 70%;
+    padding-left: 2rem;
+    background: url("../360/img/quality_cursor.png") right center no-repeat;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .txt p {
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .txt p span {
+    font-size: 1.3rem;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .txt div {
+    font-size: 1.2rem;
+  }
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn01,
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn02,
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn03,
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn04,
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn05,
+  #contents_360 #quality .inner .quality_list div.frame .txt #btn06 {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    top: 0;
+    left: 0;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open p {
+    padding: 0 2rem 2rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    transition: 0.5s;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open span {
+    display: block;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open span img {
+    width: 100%;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open span p {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.8;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open span p span {
+    font-size: 1.6rem;
+    font-style: oblique;
+    display: block;
+    letter-spacing: 0.5rem;
+  }
+  #contents_360 #quality .inner .quality_list div.frame div.open div {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    content: "OPEN VIEW ■";
+    font-style: oblique;
+    font-size: 1.3rem;
+    color: #7f858d;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+  }
+  #contents_360 #asia {
+    padding: 0 0 50px;
+    min-width: auto;
+  }
+  #contents_360 #asia .inner_read {
+    background: url("../360/img/asia_bg.png") no-repeat top left;
+    background-size: contain;
+    position: relative;
+    height: auto;
+  }
+  #contents_360 #asia .inner_read div {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #contents_360 #asia .inner_read div h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    padding-bottom: 2rem;
+    padding-top: 50vw;
+  }
+  #contents_360 #asia .inner_read div h2 span {
+    font-size: 2.7rem;
+    letter-spacing: 1.5rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+  }
+  #contents_360 #asia .inner_read div p {
+    font-size: 1.4rem;
+  }
+  #contents_360 #asia .inner_txt {
+    max-width: auto;
+    width: 100%;
+    display: block;
+    padding: 0 4%;
+    box-sizing: border-box;
+  }
+  #contents_360 #asia .inner_txt div {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  #contents_360 #asia .inner_txt div h3 {
+    font-size: 1.8rem;
+    letter-spacing: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contents_360 #asia .inner_txt div p {
+    font-size: 1.4rem;
+  }
+  #contents_360 #company {
+    padding: 50px 0;
+    min-width: auto;
+  }
+  #contents_360 #company .inner h2 {
+    font-size: 2.7rem;
+    letter-spacing: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 3rem;
+    background-size: 30px 30px;
+    display: inline-block;
+    padding: 0 4% 5rem;
+    box-sizing: border-box;
+    text-indent: 2rem;
+  }
+  #contents_360 #company .inner h2 span {
+    font-size: 1.4rem;
+    letter-spacing: 1.5rem;
+    margin-right: 1rem;
+  }
+  #contents_360 #company .inner strong.head {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    padding: 0 4%;
+    box-sizing: border-box;
+    letter-spacing: 0.5rem;
+  }
+  #contents_360 #company .inner p.head {
+    text-align: left;
+    font-size: 1.4rem;
+    width: 100%;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    padding: 0 4%;
+    box-sizing: border-box;
+  }
+  #contents_360 #company .inner .detail {
+    padding: 0 4%;
+  }
+  #contents_360 #company .inner .detail ul {
+    display: block;
+    max-width: auto;
+  }
+  #contents_360 #company .inner .detail ul li {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 1rem auto 0;
+  }
+  #contents_360 #company .inner .detail ul li div p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.3rem;
+  }
+  #contents_360 #company .inner .detail ul li div p strong {
+    display: block;
+    font-size: 3rem;
+  }
+  #contents_360 #company .inner .detail ul li div p:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+  #contents_360 #company .inner .detail ul li div p span {
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 100;
+  }
+  #contents_360 #company .inner .detail a {
+    font-size: 1.6rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #contents_360 #motivation {
+    padding: 50px 4%;
+    box-sizing: border-box;
+    min-width: auto;
+  }
+  #contents_360 #motivation .inner h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+  }
+  #contents_360 #motivation .inner .detail ul {
+    display: block;
+    width: 100%;
+  }
+  #contents_360 #motivation .inner .detail ul li {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #contents_360 #motivation .inner .detail ul li p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  #contents_360 #owner {
+    padding: 50px 4%;
+    box-sizing: border-box;
+    min-width: auto;
+    background: #000f1c url("../360/img/owner_bg.jpg") right top no-repeat;
+    background-size: 100%;
+  }
+  #contents_360 #owner .inner h2 {
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    margin-left: 10px;
+    margin-bottom: 3rem;
+    background: url("../360/img/icn_white.svg") no-repeat bottom center;
+    background-size: 30px 30px;
+    display: inline-block;
+    padding: 0 4% 5rem;
+    box-sizing: border-box;
+    text-indent: 2rem;
+  }
+  #contents_360 #owner .inner h2 span {
+    font-size: 1.4rem;
+    letter-spacing: 1.5rem;
+    margin-right: 1rem;
+  }
+  #contents_360 #owner .inner strong.head {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    letter-spacing: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #contents_360 #owner .inner p.head {
+    text-align: left;
+    font-size: 1.4rem;
+    width: 100%;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #contents_360 #owner .inner .graph {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  #contents_360 #owner .inner .graph h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  #contents_360 #owner .inner .graph img {
+    width: 100%;
+  }
+}
